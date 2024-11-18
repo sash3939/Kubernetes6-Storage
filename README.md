@@ -50,6 +50,7 @@
 
 5. Предоставить манифесты Deployment в решении, а также скриншоты или вывод команды из п. 4.
 
+[deployment-emptyDir.yaml](https://github.com/sash3939/Kubernetes6-Storage/blob/main/deployment-emptyDir.yaml)
 
 ------
 
@@ -60,9 +61,22 @@
 Создать DaemonSet приложения, которое может прочитать логи ноды.
 
 1. Создать DaemonSet приложения, состоящего из multitool.
+
+<img width="502" alt="daemonset status" src="https://github.com/user-attachments/assets/edc3ab81-6535-4959-b22a-41cda251bfe7">
+
 2. Обеспечить возможность чтения файла `/var/log/syslog` кластера MicroK8S.
+
+<img width="191" alt="read multiotool daemonset" src="https://github.com/user-attachments/assets/89f21882-50de-494c-b349-55aa4888834e">
+
 3. Продемонстрировать возможность чтения файла изнутри пода.
+
+<img width="594" alt="status exec deployment hostPath" src="https://github.com/user-attachments/assets/1efc3890-c4f0-46ab-be36-59db20913595">
+
+<img width="712" alt="read logs" src="https://github.com/user-attachments/assets/f45e016b-e00f-4a76-857d-877723230741">
+
 4. Предоставить манифесты Deployment, а также скриншоты или вывод команды из п. 2.
+
+[deployment-hostPath.yaml](https://github.com/sash3939/Kubernetes6-Storage/blob/main/deployment-hostPath.yaml)
 
 ------
 
